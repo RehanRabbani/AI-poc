@@ -1,0 +1,32 @@
+# AI-Driven Product Recommendation System
+
+This project demonstrates a simple collaborative filtering-based recommendation system.
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Run the app: `python run.py`.
+
+## API
+
+`GET /recommend/<user_id>`: Returns product recommendations for a given user ID.
+
+How to Run the Project
+Install Dependencies: Install the required packages using pip:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Application: Start the Flask application by running:
+
+bash
+Copy code
+python run.py
+Access the Recommendation API: Once the app is running, you can access the recommendation system by visiting:
+
+bash
+Copy code
+http://127.0.0.1:5000/recommend/1
+This will return recommendations for User 1.
+
